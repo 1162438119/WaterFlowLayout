@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC44CFCC1C16E40F00F303B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC44CFCB1C16E40F00F303B9 /* main.m */; };
+		EC44CFCF1C16E40F00F303B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC44CFCE1C16E40F00F303B9 /* AppDelegate.m */; };
+		EC44CFD21C16E41000F303B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC44CFD11C16E41000F303B9 /* ViewController.m */; };
+		EC44CFD51C16E41000F303B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC44CFD31C16E41000F303B9 /* Main.storyboard */; };
+		EC44CFD71C16E41000F303B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC44CFD61C16E41000F303B9 /* Images.xcassets */; };
+		EC44CFDA1C16E41000F303B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC44CFD81C16E41000F303B9 /* LaunchScreen.xib */; };
+		EC44CFE61C16E41000F303B9 /* WaterFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC44CFE51C16E41000F303B9 /* WaterFlowLayoutTests.m */; };
+		EC44CFF11C16E49300F303B9 /* WaterUICollecionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EC44CFF01C16E49300F303B9 /* WaterUICollecionViewFlowLayout.m */; };
+		EC44CFF41C16E4BF00F303B9 /* WaterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC44CFF31C16E4BF00F303B9 /* WaterCollectionViewCell.m */; };
+		EC44CFF61C16E52100F303B9 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC44CFF51C16E52100F303B9 /* 1.plist */; };
+		EC8CAF051C17B16400790691 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAEE51C17B16400790691 /* MKAnnotationView+WebCache.m */; };
+		EC8CAF061C17B16400790691 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAEE71C17B16400790691 /* NSData+ImageContentType.m */; };
+		EC8CAF071C17B16400790691 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAEE91C17B16400790691 /* SDImageCache.m */; };
+		EC8CAF081C17B16400790691 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAEEB1C17B16400790691 /* SDWebImageCompat.m */; };
+		EC8CAF091C17B16400790691 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAEED1C17B16400790691 /* SDWebImageDecoder.m */; };
+		EC8CAF0A1C17B16400790691 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAEEF1C17B16400790691 /* SDWebImageDownloader.m */; };
+		EC8CAF0B1C17B16400790691 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAEF11C17B16400790691 /* SDWebImageDownloaderOperation.m */; };
+		EC8CAF0C1C17B16400790691 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAEF31C17B16400790691 /* SDWebImageManager.m */; };
+		EC8CAF0D1C17B16400790691 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAEF61C17B16400790691 /* SDWebImagePrefetcher.m */; };
+		EC8CAF0E1C17B16400790691 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAEF81C17B16400790691 /* UIButton+WebCache.m */; };
+		EC8CAF0F1C17B16400790691 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAEFA1C17B16400790691 /* UIImage+GIF.m */; };
+		EC8CAF101C17B16400790691 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAEFC1C17B16400790691 /* UIImage+MultiFormat.m */; };
+		EC8CAF111C17B16400790691 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAEFE1C17B16400790691 /* UIImage+WebP.m */; };
+		EC8CAF121C17B16400790691 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAF001C17B16400790691 /* UIImageView+HighlightedWebCache.m */; };
+		EC8CAF131C17B16400790691 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAF021C17B16400790691 /* UIImageView+WebCache.m */; };
+		EC8CAF141C17B16400790691 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAF041C17B16400790691 /* UIView+WebCacheOperation.m */; };
+		EC8CAF171C17C7B500790691 /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CAF161C17C7B500790691 /* Goods.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC44CFE01C16E41000F303B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC44CFBE1C16E40F00F303B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC44CFC51C16E40F00F303B9;
+			remoteInfo = WaterFlowLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC44CFC61C16E40F00F303B9 /* WaterFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC44CFCA1C16E40F00F303B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC44CFCB1C16E40F00F303B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC44CFCD1C16E40F00F303B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC44CFCE1C16E40F00F303B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC44CFD01C16E41000F303B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC44CFD11C16E41000F303B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC44CFD41C16E41000F303B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC44CFD61C16E41000F303B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC44CFD91C16E41000F303B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC44CFDF1C16E41000F303B9 /* WaterFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC44CFE41C16E41000F303B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC44CFE51C16E41000F303B9 /* WaterFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayoutTests.m; sourceTree = "<group>"; };
+		EC44CFEF1C16E49300F303B9 /* WaterUICollecionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterUICollecionViewFlowLayout.h; sourceTree = "<group>"; };
+		EC44CFF01C16E49300F303B9 /* WaterUICollecionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterUICollecionViewFlowLayout.m; sourceTree = "<group>"; };
+		EC44CFF21C16E4BF00F303B9 /* WaterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterCollectionViewCell.h; sourceTree = "<group>"; };
+		EC44CFF31C16E4BF00F303B9 /* WaterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterCollectionViewCell.m; sourceTree = "<group>"; };
+		EC44CFF51C16E52100F303B9 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		EC8CAEE41C17B16400790691 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		EC8CAEE51C17B16400790691 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		EC8CAEE61C17B16400790691 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		EC8CAEE71C17B16400790691 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		EC8CAEE81C17B16400790691 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		EC8CAEE91C17B16400790691 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		EC8CAEEA1C17B16400790691 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		EC8CAEEB1C17B16400790691 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		EC8CAEEC1C17B16400790691 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		EC8CAEED1C17B16400790691 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		EC8CAEEE1C17B16400790691 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		EC8CAEEF1C17B16400790691 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		EC8CAEF01C17B16400790691 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		EC8CAEF11C17B16400790691 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		EC8CAEF21C17B16400790691 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		EC8CAEF31C17B16400790691 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		EC8CAEF41C17B16400790691 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		EC8CAEF51C17B16400790691 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		EC8CAEF61C17B16400790691 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		EC8CAEF71C17B16400790691 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		EC8CAEF81C17B16400790691 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		EC8CAEF91C17B16400790691 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		EC8CAEFA1C17B16400790691 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		EC8CAEFB1C17B16400790691 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		EC8CAEFC1C17B16400790691 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		EC8CAEFD1C17B16400790691 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		EC8CAEFE1C17B16400790691 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		EC8CAEFF1C17B16400790691 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		EC8CAF001C17B16400790691 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		EC8CAF011C17B16400790691 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		EC8CAF021C17B16400790691 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		EC8CAF031C17B16400790691 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		EC8CAF041C17B16400790691 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		EC8CAF151C17C7B500790691 /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		EC8CAF161C17C7B500790691 /* Goods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC44CFC31C16E40F00F303B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC44CFDC1C16E41000F303B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC44CFBD1C16E40F00F303B9 = {
+			isa = PBXGroup;
+			children = (
+				EC8CAEE31C17B16400790691 /* SDWebImage */,
+				EC44CFF51C16E52100F303B9 /* 1.plist */,
+				EC44CFC81C16E40F00F303B9 /* WaterFlowLayout */,
+				EC44CFE21C16E41000F303B9 /* WaterFlowLayoutTests */,
+				EC44CFC71C16E40F00F303B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC44CFC71C16E40F00F303B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC44CFC61C16E40F00F303B9 /* WaterFlowLayout.app */,
+				EC44CFDF1C16E41000F303B9 /* WaterFlowLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC44CFC81C16E40F00F303B9 /* WaterFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EC44CFCD1C16E40F00F303B9 /* AppDelegate.h */,
+				EC44CFCE1C16E40F00F303B9 /* AppDelegate.m */,
+				EC44CFD01C16E41000F303B9 /* ViewController.h */,
+				EC44CFD11C16E41000F303B9 /* ViewController.m */,
+				EC44CFD31C16E41000F303B9 /* Main.storyboard */,
+				EC44CFD61C16E41000F303B9 /* Images.xcassets */,
+				EC44CFD81C16E41000F303B9 /* LaunchScreen.xib */,
+				EC44CFC91C16E40F00F303B9 /* Supporting Files */,
+				EC44CFEF1C16E49300F303B9 /* WaterUICollecionViewFlowLayout.h */,
+				EC44CFF01C16E49300F303B9 /* WaterUICollecionViewFlowLayout.m */,
+				EC44CFF21C16E4BF00F303B9 /* WaterCollectionViewCell.h */,
+				EC44CFF31C16E4BF00F303B9 /* WaterCollectionViewCell.m */,
+				EC8CAF151C17C7B500790691 /* Goods.h */,
+				EC8CAF161C17C7B500790691 /* Goods.m */,
+			);
+			path = WaterFlowLayout;
+			sourceTree = "<group>";
+		};
+		EC44CFC91C16E40F00F303B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC44CFCA1C16E40F00F303B9 /* Info.plist */,
+				EC44CFCB1C16E40F00F303B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC44CFE21C16E41000F303B9 /* WaterFlowLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC44CFE51C16E41000F303B9 /* WaterFlowLayoutTests.m */,
+				EC44CFE31C16E41000F303B9 /* Supporting Files */,
+			);
+			path = WaterFlowLayoutTests;
+			sourceTree = "<group>";
+		};
+		EC44CFE31C16E41000F303B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC44CFE41C16E41000F303B9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC8CAEE31C17B16400790691 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				EC8CAEE41C17B16400790691 /* MKAnnotationView+WebCache.h */,
+				EC8CAEE51C17B16400790691 /* MKAnnotationView+WebCache.m */,
+				EC8CAEE61C17B16400790691 /* NSData+ImageContentType.h */,
+				EC8CAEE71C17B16400790691 /* NSData+ImageContentType.m */,
+				EC8CAEE81C17B16400790691 /* SDImageCache.h */,
+				EC8CAEE91C17B16400790691 /* SDImageCache.m */,
+				EC8CAEEA1C17B16400790691 /* SDWebImageCompat.h */,
+				EC8CAEEB1C17B16400790691 /* SDWebImageCompat.m */,
+				EC8CAEEC1C17B16400790691 /* SDWebImageDecoder.h */,
+				EC8CAEED1C17B16400790691 /* SDWebImageDecoder.m */,
+				EC8CAEEE1C17B16400790691 /* SDWebImageDownloader.h */,
+				EC8CAEEF1C17B16400790691 /* SDWebImageDownloader.m */,
+				EC8CAEF01C17B16400790691 /* SDWebImageDownloaderOperation.h */,
+				EC8CAEF11C17B16400790691 /* SDWebImageDownloaderOperation.m */,
+				EC8CAEF21C17B16400790691 /* SDWebImageManager.h */,
+				EC8CAEF31C17B16400790691 /* SDWebImageManager.m */,
+				EC8CAEF41C17B16400790691 /* SDWebImageOperation.h */,
+				EC8CAEF51C17B16400790691 /* SDWebImagePrefetcher.h */,
+				EC8CAEF61C17B16400790691 /* SDWebImagePrefetcher.m */,
+				EC8CAEF71C17B16400790691 /* UIButton+WebCache.h */,
+				EC8CAEF81C17B16400790691 /* UIButton+WebCache.m */,
+				EC8CAEF91C17B16400790691 /* UIImage+GIF.h */,
+				EC8CAEFA1C17B16400790691 /* UIImage+GIF.m */,
+				EC8CAEFB1C17B16400790691 /* UIImage+MultiFormat.h */,
+				EC8CAEFC1C17B16400790691 /* UIImage+MultiFormat.m */,
+				EC8CAEFD1C17B16400790691 /* UIImage+WebP.h */,
+				EC8CAEFE1C17B16400790691 /* UIImage+WebP.m */,
+				EC8CAEFF1C17B16400790691 /* UIImageView+HighlightedWebCache.h */,
+				EC8CAF001C17B16400790691 /* UIImageView+HighlightedWebCache.m */,
+				EC8CAF011C17B16400790691 /* UIImageView+WebCache.h */,
+				EC8CAF021C17B16400790691 /* UIImageView+WebCache.m */,
+				EC8CAF031C17B16400790691 /* UIView+WebCacheOperation.h */,
+				EC8CAF041C17B16400790691 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC44CFC51C16E40F00F303B9 /* WaterFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC44CFE91C16E41000F303B9 /* Build configuration list for PBXNativeTarget "WaterFlowLayout" */;
+			buildPhases = (
+				EC44CFC21C16E40F00F303B9 /* Sources */,
+				EC44CFC31C16E40F00F303B9 /* Frameworks */,
+				EC44CFC41C16E40F00F303B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterFlowLayout;
+			productName = WaterFlowLayout;
+			productReference = EC44CFC61C16E40F00F303B9 /* WaterFlowLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC44CFDE1C16E41000F303B9 /* WaterFlowLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC44CFEC1C16E41000F303B9 /* Build configuration list for PBXNativeTarget "WaterFlowLayoutTests" */;
+			buildPhases = (
+				EC44CFDB1C16E41000F303B9 /* Sources */,
+				EC44CFDC1C16E41000F303B9 /* Frameworks */,
+				EC44CFDD1C16E41000F303B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC44CFE11C16E41000F303B9 /* PBXTargetDependency */,
+			);
+			name = WaterFlowLayoutTests;
+			productName = WaterFlowLayoutTests;
+			productReference = EC44CFDF1C16E41000F303B9 /* WaterFlowLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC44CFBE1C16E40F00F303B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = dqy;
+				TargetAttributes = {
+					EC44CFC51C16E40F00F303B9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EC44CFDE1C16E41000F303B9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EC44CFC51C16E40F00F303B9;
+					};
+				};
+			};
+			buildConfigurationList = EC44CFC11C16E40F00F303B9 /* Build configuration list for PBXProject "WaterFlowLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC44CFBD1C16E40F00F303B9;
+			productRefGroup = EC44CFC71C16E40F00F303B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC44CFC51C16E40F00F303B9 /* WaterFlowLayout */,
+				EC44CFDE1C16E41000F303B9 /* WaterFlowLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC44CFC41C16E40F00F303B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC44CFD51C16E41000F303B9 /* Main.storyboard in Resources */,
+				EC44CFDA1C16E41000F303B9 /* LaunchScreen.xib in Resources */,
+				EC44CFF61C16E52100F303B9 /* 1.plist in Resources */,
+				EC44CFD71C16E41000F303B9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC44CFDD1C16E41000F303B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC44CFC21C16E40F00F303B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC44CFD21C16E41000F303B9 /* ViewController.m in Sources */,
+				EC8CAF121C17B16400790691 /* UIImageView+HighlightedWebCache.m in Sources */,
+				EC8CAF131C17B16400790691 /* UIImageView+WebCache.m in Sources */,
+				EC8CAF111C17B16400790691 /* UIImage+WebP.m in Sources */,
+				EC8CAF0D1C17B16400790691 /* SDWebImagePrefetcher.m in Sources */,
+				EC44CFF41C16E4BF00F303B9 /* WaterCollectionViewCell.m in Sources */,
+				EC8CAF091C17B16400790691 /* SDWebImageDecoder.m in Sources */,
+				EC8CAF0A1C17B16400790691 /* SDWebImageDownloader.m in Sources */,
+				EC44CFCF1C16E40F00F303B9 /* AppDelegate.m in Sources */,
+				EC8CAF0C1C17B16400790691 /* SDWebImageManager.m in Sources */,
+				EC8CAF141C17B16400790691 /* UIView+WebCacheOperation.m in Sources */,
+				EC8CAF0E1C17B16400790691 /* UIButton+WebCache.m in Sources */,
+				EC8CAF101C17B16400790691 /* UIImage+MultiFormat.m in Sources */,
+				EC44CFF11C16E49300F303B9 /* WaterUICollecionViewFlowLayout.m in Sources */,
+				EC8CAF0B1C17B16400790691 /* SDWebImageDownloaderOperation.m in Sources */,
+				EC8CAF0F1C17B16400790691 /* UIImage+GIF.m in Sources */,
+				EC8CAF171C17C7B500790691 /* Goods.m in Sources */,
+				EC8CAF081C17B16400790691 /* SDWebImageCompat.m in Sources */,
+				EC8CAF061C17B16400790691 /* NSData+ImageContentType.m in Sources */,
+				EC44CFCC1C16E40F00F303B9 /* main.m in Sources */,
+				EC8CAF051C17B16400790691 /* MKAnnotationView+WebCache.m in Sources */,
+				EC8CAF071C17B16400790691 /* SDImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC44CFDB1C16E41000F303B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC44CFE61C16E41000F303B9 /* WaterFlowLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC44CFE11C16E41000F303B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC44CFC51C16E40F00F303B9 /* WaterFlowLayout */;
+			targetProxy = EC44CFE01C16E41000F303B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC44CFD31C16E41000F303B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC44CFD41C16E41000F303B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC44CFD81C16E41000F303B9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC44CFD91C16E41000F303B9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC44CFE71C16E41000F303B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC44CFE81C16E41000F303B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC44CFEA1C16E41000F303B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterFlowLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC44CFEB1C16E41000F303B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterFlowLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC44CFED1C16E41000F303B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaterFlowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterFlowLayout.app/WaterFlowLayout";
+			};
+			name = Debug;
+		};
+		EC44CFEE1C16E41000F303B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaterFlowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterFlowLayout.app/WaterFlowLayout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC44CFC11C16E40F00F303B9 /* Build configuration list for PBXProject "WaterFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC44CFE71C16E41000F303B9 /* Debug */,
+				EC44CFE81C16E41000F303B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC44CFE91C16E41000F303B9 /* Build configuration list for PBXNativeTarget "WaterFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC44CFEA1C16E41000F303B9 /* Debug */,
+				EC44CFEB1C16E41000F303B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC44CFEC1C16E41000F303B9 /* Build configuration list for PBXNativeTarget "WaterFlowLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC44CFED1C16E41000F303B9 /* Debug */,
+				EC44CFEE1C16E41000F303B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC44CFBE1C16E40F00F303B9 /* Project object */;
+}
